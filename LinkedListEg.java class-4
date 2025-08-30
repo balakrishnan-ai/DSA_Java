@@ -1,0 +1,33 @@
+package lava1;
+
+import java.util.LinkedList;
+
+public class LinkedListEg {
+
+	public static void main(String[] args) {
+		LinkedList<Integer> list=new LinkedList<>();
+		
+		//Add the elements
+		list.add(10);
+		list.add(20);
+		list.add(30);
+		
+		//Add First index
+		list.addFirst(5);
+		
+		//Add Last index
+		list.addLast(40);
+		
+		//Add First index
+		list.addFirst(50);
+		
+		//Add index_val , value
+		list.add(3,70);
+		
+		System.out.println("LinkedList: "+list);
+		
+		
+
+	}
+
+}
