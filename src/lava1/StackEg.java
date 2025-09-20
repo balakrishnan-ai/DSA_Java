@@ -1,0 +1,23 @@
+package lava1;
+
+import java.util.*;
+
+public class StackEg {
+
+	public static void main(String[] args) {
+		Stack<String> stack=new Stack<>();
+		stack.push("A");
+		stack.push("B");
+		stack.push("C");
+		
+		System.out.println("Stack: "+stack);
+		
+		System.out.println("Popped: "+stack.pop());
+		
+		System.out.println("Pop function after: "+stack);
+		
+		System.out.println("Top Element: "+stack.peek());
+
+	}
+
+}
